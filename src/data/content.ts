@@ -66,9 +66,15 @@ export const EXPERIMENTS: Experiment[] = [
 ];
 
 export const SOCIALS = [
-  { label: "GitHub", href: "#" },
-  { label: "Instagram", href: "#" },
-  { label: "LinkedIn", href: "#" },
+  { label: "GitHub", href: "https://github.com/Abhlucky" },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/abhayyyyyyyyyyyyyy_y/",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/abhay-kumar-726927359/",
+  },
   { label: "Discord", href: "#" },
   { label: "Email", href: "mailto:hello@example.com" },
 ];
