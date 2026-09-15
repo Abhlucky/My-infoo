@@ -227,10 +227,10 @@ function JeeBig({ z }: { z: number }) {
   return (
     <group ref={g} position={[0, 0, z]}>
       <Text fontSize={4.4} color="#f2f3f7" anchorX="center" anchorY="middle" letterSpacing={-0.02}>
-        92
+        19
       </Text>
       <Text position={[0, -2.1, 0]} fontSize={0.5} color="#5eb1ff" letterSpacing={0.35}>
-        PERCENTILE
+        Age
       </Text>
       <group ref={ring}>
         {!LOW_POWER && <Sparkles count={150} scale={[10, 10, 2]} size={1.8} speed={0.4} color="#9a7bff" />}
