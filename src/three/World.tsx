@@ -218,7 +218,7 @@ function JourneyTimeline({ z }: { z: number }) {
 /* ---------------------------------------------------------------- */
 /* 03 — JEE 92                                                        */
 /* ---------------------------------------------------------------- */
-function JeeBig({ z }: { z: number }) {
+function Big({ z }: { z: number }) {
   const g = useDepthRef(z);
   const ring = useRef<THREE.Group>(null!);
   useFrame((_, delta) => {
@@ -662,7 +662,7 @@ function SceneContents() {
       <HeroCore />
       <AboutFigure z={chapterZ(1)} />
       <JourneyTimeline z={chapterZ(2)} />
-      <JeeBig z={chapterZ(3)} />
+      <Big z={chapterZ(3)} />
       <NetworkVisual z={chapterZ(4)} structured={false} label="NEURAL ACTIVITY" />
       <NetworkVisual z={chapterZ(5)} structured label="CURRENTLY EXPLORING" />
       <PythonScene z={chapterZ(6)} />
